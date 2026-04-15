@@ -51,39 +51,33 @@ This project is a Python-based image encryption system that secures full-color R
 ### Image Representation
 A digital RGB image is represented as a 3D tensor:
 
-\[
-I \in \mathbb{R}^{H \times W \times 3}
-\]
+`I ∈ R^(H × W × 3)`
 
-where:
-- \(H\) = Height  
-- \(W\) = Width  
-- \(3\) = RGB channels  
+Where:
+- `H` = Height  
+- `W` = Width  
+- `3` = RGB Channels  
 
 ---
 
 ### Encryption Formula
 
-\[
-E = I \times K
-\]
+`E = I × K`
 
-where:
-- \(E\) = Encrypted Matrix  
-- \(I\) = Flattened Image Matrix  
-- \(K\) = Invertible Key Matrix  
+Where:
+- `E` = Encrypted Matrix  
+- `I` = Flattened Image Matrix  
+- `K` = Invertible Key Matrix  
 
 ---
 
 ### Decryption Formula
 
-\[
-R = E \times K^{-1}
-\]
+`R = E × K⁻¹`
 
-where:
-- \(R\) = Restored Image Matrix  
-- \(K^{-1}\) = Inverse of Key Matrix  
+Where:
+- `R` = Restored Image Matrix  
+- `K⁻¹` = Inverse of Key Matrix  
 
 ---
 
@@ -91,9 +85,7 @@ where:
 
 The key matrix must satisfy:
 
-\[
-\det(K) \neq 0
-\]
+`det(K) ≠ 0`
 
 A zero determinant implies the matrix is singular and non-invertible, making decryption mathematically impossible.
 
@@ -153,10 +145,12 @@ UE24MA241B-mini-project/
 ## Installation and running the project
 
 ```bash
+
 git clone <your-repository-url>
 cd UE24MA241B-mini-project
 pip install -r requirements.txt
 jupyter notebook encrypt.ipynb
+
 ```
 
 ---
