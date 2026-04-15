@@ -164,3 +164,12 @@ This project demonstrates the practical application of linear algebra in cryptog
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+## Team details
+ - P Saanvi [PES1UG24AM905]
+ - Sonia Sharma [PES1UG24AM904]
+ - Kasissnu Ssinha [PES1UG24AM130]
+ - Kaustubh Akash [PES1UG24AM131]
+ 
