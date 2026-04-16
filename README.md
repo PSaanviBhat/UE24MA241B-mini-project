@@ -146,7 +146,7 @@ UE24MA241B-mini-project/
 
 ```bash
 
-git clone <your-repository-url>
+git clone https://github.com/PSaanviBhat/UE24MA241B-mini-project
 cd UE24MA241B-mini-project
 pip install -r requirements.txt
 jupyter notebook encrypt.ipynb
