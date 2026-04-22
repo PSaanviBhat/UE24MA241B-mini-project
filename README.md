@@ -127,6 +127,7 @@ The tool generates a dashboard displaying:
 2. Encrypted Noise Representation  
 3. Perfectly Restored Decrypted Image  
 
+![Output](output.png)
 ---
 
 ## Directory Structure
